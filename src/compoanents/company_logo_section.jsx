@@ -9,7 +9,7 @@ export const CompanyLogoSection=()=>{
 
 
     return(
-        <div style={{display:"flex",height:"140px", border:"1px solid red", paddingLeft:"168px" , paddingTop:"52px" ,justifyContent:"space-around"}}>
+        <div style={{display:"flex",height:"140px", paddingLeft:"168px" , paddingTop:"52px" ,justifyContent:"space-around"}}>
             
             {conpanylogo.map((elem,index)=>{
                 return (

@@ -9,10 +9,10 @@ export const WhyChooseUsSection=()=>{
 
 
     return(
-        <div style={{display:"flex" , height:"552px", border:"1px solid red" , backgroundColor:"#282C4B"}}>
+        <div style={{display:"flex" , height:"552px", border:"none" , backgroundColor:"#282C4B"}}>
         
            {/* left box */}
-          <div style={{height:"552px" , width:"406px" , border:"1px solid red" , marginLeft:"244px" , paddingTop:"19px"}}>
+          <div style={{height:"552px" , width:"406px" , border:"none" , marginLeft:"244px" , paddingTop:"19px"}}>
 
            <img src={Secgirl}/>
 
@@ -29,13 +29,15 @@ export const WhyChooseUsSection=()=>{
 
           {/* right box */}
 
-          <div style={{border:"1px solid red" , marginLeft:"189px" , width:"459px"}}>
+          <div style={{border:"none", marginLeft:"189px" , width:"459px"}}>
 
             <h4 style={{color:"#F17216", height:"18px" , fontWeight:"400", fontSize:"14px", lineHeight: "18px"
             }}>WHY CHOOSE US</h4>
 
             <h1 style={{width:"495px", height:"120px",fontWeight:"700", fontSize:"36px",color: "#FFFFFF", lineHeight: "60px"
-        }}>Take on any Challenges of Digital World</h1>
+             }}>
+             Take on any Challenges of Digital World
+             </h1>
 
          {info.map((elem,index)=>{
 

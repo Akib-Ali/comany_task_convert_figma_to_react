@@ -24,7 +24,7 @@ export const HeroSection=()=>{
      Support small business and join the nationwide movement to encourage commercial support for the millions of miniority owned business helping world economy.
     </p>
 
-    <div style={{ display:"flex", gap:"12px", border:"2px solid blue", height:"150px", width:"500px", marginLeft:"115px"}}>
+    <div style={{ display:"flex", gap:"12px", height:"150px", width:"500px", marginLeft:"115px"}}>
     <button className="getstartedbtn">Get Started</button>
     <p style={{width:"254px" , height:"21px", fontWeight:"500" , fontSize:"18px", letterSpacing:"2%"}}>Book a 30 Min Quick Meeting</p>
     
@@ -44,7 +44,7 @@ export const HeroSection=()=>{
   
 
 
-    <div style={{height:"576px", width:"416px" , border:"1px solid red" , marginRight:"135px"}}>
+    <div style={{height:"576px", width:"416px" , border:"none", marginRight:"135px"}}>
     <div style={{marginTop:"40px" , position:"relative"}}> <img src={Vector}/></div>
     <div style={{marginTop:"-150px", position:"relative"}}> <img src={girlpicture}/></div>
     <div style={{marginTop:"-200px", marginLeft:"280px", position:"relative"}}><img src={Vectoriind }/></div>

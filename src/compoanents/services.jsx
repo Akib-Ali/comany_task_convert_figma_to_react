@@ -20,9 +20,9 @@ export const Services=()=>{
 
 
     return(
-        <div style={{display:"flex", height:"441px" , border:"1px solid red"}}>
+        <div style={{display:"flex", height:"441px" , border:"none"}}>
 
-        <div style={{border:"1px solid pink" ,height:"300px" , width:"300px", marginLeft:"135px" , marginTop:"100px"}}>
+        <div style={{border:"none" ,height:"300px" , width:"300px", marginLeft:"135px" , marginTop:"100px"}}>
          <h1 style={{width:"289px", height:"53px", fontWeight:"700", fontSize:"36px", letterSpacing:"2%" , color:"#282C4B"}}>Our Capabilities</h1>
 
          <p style={{width:"335px", height:"96px" , fontSize:"20px", fontWeight:"400" , lineheight:"32px", color:" #747582"}}>We will bring the breathe of our expercties and industry  knowledge to help you succeed</p>
@@ -31,7 +31,7 @@ export const Services=()=>{
         </div>
 
 
-     <div style={{display:"flex", border:"1px solid grey" ,marginLeft:"52px" ,width:"75%",marginTop:"100px" , justifyContent:"space-around"}}>
+     <div style={{display:"flex", border:"none" ,marginLeft:"52px" ,width:"75%",marginTop:"100px" , justifyContent:"space-around"}}>
 
      {servicescard.map((elem,index)=>{
         return (

@@ -2,7 +2,7 @@ export const Navbar=()=>{
 
 
     return(
-        <div style={{display:"flex", border:"1px solid red", width:"100%"}}>
+        <div style={{display:"flex", width:"100%"}}>
 
          <div style={{marginLeft:"115px", marginTop:"49px"}}>
              <h1 style={{fontSize:"26px", fontWeight:"700", fontStyle:"italic", color:"#FB3F6C" , width:"254px", height:"36px"}}>Webure Technologies</h1>

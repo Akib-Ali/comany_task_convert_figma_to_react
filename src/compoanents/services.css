@@ -1,10 +1,10 @@
-.servicescard{
-    height:257px;
-     width:257px ;
-      /* border:1px solid red; */
-      padding-top: 20px;
-      padding-left: 10px;
-      box-shadow: 40px 0px 70px rgba(121, 121, 121, 0.05), -40px 100px 70px rgba(121, 121, 121, 0.05);
-      background: #FFFFFF;
+.servicescard {
+    height: 257px;
+    width: 257px;
+    /* border:1px solid red; */
+    padding-top: 20px;
+    padding-left: 10px;
+    box-shadow: 40px 0px 70px rgba(121, 121, 121, 0.05), -40px 100px 70px rgba(121, 121, 121, 0.05);
+    background: #FFFFFF;
 
 }

@@ -10,19 +10,19 @@ import { WhatWedoSection } from './compoanents/whatwedosection'
 import { WhyChooseUsSection } from './compoanents/whychooseUsSection'
 
 function App() {
-  
+
 
   return (
     <div className="App">
-    <Navbar/>
-    <HeroSection/>
-    <CompanyLogoSection/>
-    <Services/>
-    <WhyChooseUsSection/>
-    <OurSolution/>
-    <WhatWedoSection/>
-    <OurServices/>
-     
+      <Navbar />
+      <HeroSection />
+      <CompanyLogoSection />
+      <Services />
+      <WhyChooseUsSection />
+      <OurSolution />
+      <WhatWedoSection />
+      <OurServices />
+
     </div>
   )
 }

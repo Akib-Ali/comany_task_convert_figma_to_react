@@ -6,6 +6,7 @@ import { Navbar } from './compoanents/navbar'
 import { OurServices } from './compoanents/ourServices'
 import { OurSolution } from './compoanents/oursolution'
 import { Services } from './compoanents/services'
+import { WhatWedoSection } from './compoanents/whatwedosection'
 import { WhyChooseUsSection } from './compoanents/whychooseUsSection'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Services/>
     <WhyChooseUsSection/>
     <OurSolution/>
+    <WhatWedoSection/>
     <OurServices/>
      
     </div>
